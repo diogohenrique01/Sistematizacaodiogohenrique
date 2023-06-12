@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.introducao {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(104, 98, 73, 0.985);
+  color: rgba(255, 204, 0, 0.985);
+  border: 10 solid black;
+}
+.card_introducao {
+  display: flex;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 2px 1px 10px 1px rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 204, 0, 0.985),
+    rgba(243, 215, 104, 0.985)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.card_introducao p {
+  margin-top: 100px;
+}
+.imagem1 {
+  width: 500px;
+  border-radius: 10px;
+}
+.inicio {
+  width: 475px;
+  flex-direction: column;
+}
+.inicio h1 {
+  font-size: 50px;
+  padding-bottom: 20px;
+  font-family: "Poppins";
+  text-align: center;
+}
+.inicio p {
+  font-size: 19px;
+  font-family: "Roboto";
+  padding-right: 20px;
+  text-align: center;
+}
+
+.coluna {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.Coluna1 {
+  display: flex;
+  width: 50%;
+  background-color: rgba(8, 8, 6, 0.985);
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.Coluna2 {
+  display: flex;
+  width: 50%;
+  background-color: rgba(248, 248, 43, 0.87);
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.servico {
+  display: flex;
+  padding: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(27, 27, 21, 0.985);
+  border-radius: 20px;
+  gap: 20px;
+}
+
+.equipe {
+  display: flex;
+  padding: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(138, 138, 26, 0.87);
+  border-radius: 20px;
+  gap: 20px;
+}
+.carro2 {
+  width: 400px;
+  border-radius: 10px;
+}
+.img2 {
+  height: 250px;
+  width: 300px;
+}
+
+.texto-servico {
+  width: 275px;
+}
+.texto-servico h1 {
+  color: rgba(247, 213, 77, 0.985);
+}
+.texto-servico p {
+  margin-top: 20px;
+  font-size: 15px;
+  color: rgba(156, 126, 6, 0.985);
+}
+.texto-equipe {
+  width: 275px;
+}
+.texto-equipe h1 {
+  color: rgba(17, 16, 11, 0.985);
+}
+.texto-equipe p {
+  margin-top: 20px;
+  font-size: 15px;
+  color: rgba(24, 19, 1, 0.985);
+}
+.formulario {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+
+  background-image: url(IMG/CARROLUXO.jpg);
+  background-position: center;
+}
+.textoformulario {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  padding-top: 40px;
+}
+.formulario_sec label {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 10px;
+}
+span {
+  padding-bottom: 15px;
+  font-size: 25px;
+
+  font-family: "Roboto";
+}
+.formulario_sec label input {
+  text-align: center;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  width: 300px;
+  height: 30px;
+}
+
+.formulario_sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  background-color: rgb(120, 121, 115);
+  width: 50vh;
+  height: 70vh;
+  border-radius: 10px;
+}
+.area_formulario {
+  display: flex;
+  align-items: center;
+}
+.footer {
+  display: flex;
+  width: 100%;
+  height: 20vh;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.985);
+}
+.sobre {
+  display: flex;
+  padding-left: 40px;
+  flex-direction: column;
+  width: 500px;
+  gap: 10px;
+}
+.sobre p {
+  font-size: 15px;
+
+  font-family: "Poppins";
+  color: rgb(255, 255, 255);
+}
+
+.sobre h1 {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  padding-top: 20px;
+  font-family: "Roboto";
+}
+.sobre h2 {
+  font-size: 15px;
+  padding-bottom: 20px;
+  font-family: "Poppins";
+  color: rgb(255, 255, 255);
+}
+.pagina {
+  display: flex;
+  padding-right: 40px;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+  font-size: 10px;
+  gap: 15px;
+}
+
+.butao {
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
